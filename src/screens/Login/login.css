@@ -1,0 +1,15 @@
+.bg {
+  background: url("../../assets/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#login-column {
+  background: #ffffff;
+  padding: 20px;
+}
+
+#login-row {
+  height: 100vh;
+  padding: 20px;
+}

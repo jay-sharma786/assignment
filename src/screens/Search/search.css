@@ -1,0 +1,43 @@
+.image {
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 30s linear infinite;
+  -moz-animation: spin 30s linear infinite;
+  animation: spin 30s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  background: none;
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.bg {
+  background: url("../../assets/bg.jpg");
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+}
+
+p {
+  color: #fff;
+}
